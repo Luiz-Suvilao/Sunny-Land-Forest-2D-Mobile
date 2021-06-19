@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace Projeto.Scripts
 {
@@ -24,6 +25,7 @@ namespace Projeto.Scripts
         public ParticleSystem Particle;
         public GameObject Warning;
         public GameObject InfoNPC;
+        public GameObject InfoAmbiente;
         
         private bool _facingRight = true;
         private bool _isGround;
@@ -53,9 +55,9 @@ namespace Projeto.Scripts
             _isGround = Physics2D.Linecast(transform.position, GroundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
             _playerAnimator.SetBool("isGrounded", _isGround);
 
-            _touchRun = Input.GetAxisRaw("Horizontal");
+            _touchRun = CrossPlatformInputManager.GetAxisRaw("Horizontal");
 
-            if (Input.GetButtonDown("Jump"))
+            if (CrossPlatformInputManager.GetButtonDown("Jump"))
             {
                 _jump = true;
             }
@@ -125,6 +127,10 @@ namespace Projeto.Scripts
                     CollectedItems(col.gameObject);
                 break;
                 
+                case "vida":
+                    CollectLife(col.gameObject);
+                break;
+                
                 case "Inimigo":
                     KillEnemie(col.gameObject);
                 break;
@@ -140,6 +146,10 @@ namespace Projeto.Scripts
                 case "InfoNPC":
                     InfoNPC.SetActive(true);
                 break;
+
+                case "ambienteAviso":
+                    InfoAmbiente.SetActive(true);
+                break;
             }
         }
 
@@ -153,6 +163,10 @@ namespace Projeto.Scripts
 
                 case "InfoNPC":
                     InfoNPC.SetActive(false);
+                break;
+                
+                case "ambienteAviso":
+                    InfoAmbiente.SetActive(false);
                 break;
             }
         }
@@ -204,6 +218,19 @@ namespace Projeto.Scripts
             fxGame.PlayOneShot(fxCollectedItem);
             
             Destroy(obj);
+        }
+
+        private void CollectLife(GameObject obj)
+        {
+            if (lifes == 3)
+            {
+                return;
+            }
+
+            lifes++;
+            _gameController.ChangeLifeImg(lifes);
+            Destroy(obj);
+
         }
 
         private void OnCollisionEnter2D(Collision2D collision)

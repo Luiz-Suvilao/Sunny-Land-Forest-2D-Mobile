@@ -10,6 +10,8 @@ TagManager:
   - Damage
   - NextLevel
   - InfoNPC
+  - ambienteAviso
+  - vida
   layers:
   - Default
   - TransparentFX
