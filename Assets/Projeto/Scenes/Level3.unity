@@ -592,6 +592,7 @@ MonoBehaviour:
   fxEnemieDead: {fileID: 8300000, guid: 31d4959b5c9081c4b973f20ae1514e10, type: 3}
   fxPlayerDie: {fileID: 8300000, guid: 0ef042d125290354dab0ac63b8ed77ce, type: 3}
   fxPlayerDamage: {fileID: 8300000, guid: e98269d9e4c987d4a8b9f9c24c18d5a5, type: 3}
+  fxPlayerCollectedLife: {fileID: 8300000, guid: 6aa6c7973330f3548b6fbfcc8387ebf2, type: 3}
   noHitColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   PlayerDie: {fileID: 3760851078655098177, guid: 9aca6c0cdeaa369439bef570850bec73, type: 3}
   Particle: {fileID: 2079023316}

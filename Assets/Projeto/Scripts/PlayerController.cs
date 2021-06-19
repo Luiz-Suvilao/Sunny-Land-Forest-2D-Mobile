@@ -20,6 +20,8 @@ namespace Projeto.Scripts
         public AudioClip fxEnemieDead;
         public AudioClip fxPlayerDie;
         public AudioClip fxPlayerDamage;
+        public AudioClip fxPlayerCollectedLife;
+        
         public Color noHitColor;
         public GameObject PlayerDie;
         public ParticleSystem Particle;
@@ -229,6 +231,7 @@ namespace Projeto.Scripts
 
             lifes++;
             _gameController.ChangeLifeImg(lifes);
+            fxGame.PlayOneShot(fxPlayerCollectedLife);
             Destroy(obj);
 
         }
