@@ -8,7 +8,17 @@ namespace Projeto.Scripts
     {
         public void Play()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Level1");
+        }
+
+        public void ReturnToMenu()
+        {
+            SceneManager.LoadScene("Menu");
+        }
+
+        public void Exit()
+        {
+            Application.Quit();
         }
     }
 }
