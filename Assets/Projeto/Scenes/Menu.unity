@@ -623,7 +623,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: fe7ca5eb7b43d174c87454a7a4131faf, type: 3}
     m_FontSize: 60
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 60
@@ -633,7 +633,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Clique para come\xE7ar"
+  m_Text: Clique para iniciar!
 --- !u!222 &739926675
 CanvasRenderer:
   m_ObjectHideFlags: 0
