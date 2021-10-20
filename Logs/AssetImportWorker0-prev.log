@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'pt' Physical Memory: 15289 MB
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'pt' Physical Memory: 15289 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ F:/Unity/MyGames/Sunny Land Forest - Mobile
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65408
+56961
 Successfully changed project path to: F:/Unity/MyGames/Sunny Land Forest - Mobile
 F:/Unity/MyGames/Sunny Land Forest - Mobile
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path F:/Unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,62 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001996 seconds.
+Registered in 0.002657 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.156 seconds
+- Completed reload, in  3.155 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001199 seconds.
+Registered in 0.001252 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.22 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.262 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.0 MB.
 System memory in use after: 85.9 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.884200 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.276000 ms MarkObjects: 2.117400 ms  DeleteObjects: 0.147400 ms)
+Total: 2.800600 ms (FindLiveObjects: 0.249800 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.320800 ms  DeleteObjects: 0.173100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Projeto/Scenes/Menu.unity
-  artifactKey: Guid(2d6cbc28c845673458a940a01b2e19fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Scenes/Menu.unity using Guid(2d6cbc28c845673458a940a01b2e19fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c94d6b69cdc15d3bacb8650efe0050') in 0.023267 seconds
-  Import took 0.027165 seconds .
+  path: Assets/Projeto/Scenes/Level3.unity
+  artifactKey: Guid(9bd9431352f3acc429a33482d9bc8900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projeto/Scenes/Level3.unity using Guid(9bd9431352f3acc429a33482d9bc8900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b5c69a1ee590c7dc755815a185880c') in 0.023261 seconds
+  Import took 0.027928 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.084698 seconds.
+Registered in 0.001590 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.082 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.8 MB.
-System memory in use after: 85.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2278.
-Total: 2.380700 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.094100 ms MarkObjects: 1.855800 ms  DeleteObjects: 0.127500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -126,257 +99,25 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.121 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.9 MB.
-System memory in use after: 85.9 MB.
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
-Total: 3.019500 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.511400 ms  DeleteObjects: 0.156900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 3.137900 ms (FindLiveObjects: 0.347100 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.551400 ms  DeleteObjects: 0.154100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 688.097826 seconds.
-  path: Assets/Projeto/Scenes/Menu.unity
-  artifactKey: Guid(2d6cbc28c845673458a940a01b2e19fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Scenes/Menu.unity using Guid(2d6cbc28c845673458a940a01b2e19fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d664e9e4bfc6fa3a1cf4e1571516fc2') in 0.021377 seconds
-  Import took 0.025171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 269.335435 seconds.
-  path: Assets/Projeto/Sprites/layers/preview-living-tissue-platform-x1.png
-  artifactKey: Guid(d68afefdd78b86e40ba346467b632299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/layers/preview-living-tissue-platform-x1.png using Guid(d68afefdd78b86e40ba346467b632299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfe3ac51dd58c34f22cfd6c10daf826') in 0.242169 seconds
-  Import took 0.246058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.456610 seconds.
-  path: Assets/Projeto/Sprites/layers/bakground.png
-  artifactKey: Guid(cc75062e0a74e5d4bb7a6f5e2f105a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/layers/bakground.png using Guid(cc75062e0a74e5d4bb7a6f5e2f105a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96987f50b20d61586e18ece13e605c5b') in 0.022329 seconds
-  Import took 0.026965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.958696 seconds.
-  path: Assets/Projeto/Sprites/layers/preview-living-tissue-platform-x2.png
-  artifactKey: Guid(ad74bce2fa61191438f9003bdf105152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/layers/preview-living-tissue-platform-x2.png using Guid(ad74bce2fa61191438f9003bdf105152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68068f355bc7de9f63bbbb5e9ffec6c') in 0.023602 seconds
-  Import took 0.027856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.326988 seconds.
-  path: Assets/Projeto/Sprites/Environment/dark/parallax-forest-middle-trees.png
-  artifactKey: Guid(e89b5227da616854486cbd2039cbdde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/dark/parallax-forest-middle-trees.png using Guid(e89b5227da616854486cbd2039cbdde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99081edd574949d3ad83e484bb1d889e') in 0.019210 seconds
-  Import took 0.023260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.701492 seconds.
-  path: Assets/Projeto/Sprites/Environment/dark/parallax-forest-lights.png
-  artifactKey: Guid(210a5dd0a03eba04984a25a82ec8b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/dark/parallax-forest-lights.png using Guid(210a5dd0a03eba04984a25a82ec8b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062b0a7a513a729fc1dd6ad26bb3026e') in 0.017404 seconds
-  Import took 0.021222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.795806 seconds.
-  path: Assets/Projeto/Sprites/Environment/dark/parallax-forest-front-trees.png
-  artifactKey: Guid(b9f9eb70574cae64a842d465ea887973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/dark/parallax-forest-front-trees.png using Guid(b9f9eb70574cae64a842d465ea887973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b87c44490b2ca9c4439b74c74f082a') in 0.019673 seconds
-  Import took 0.023443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.614147 seconds.
-  path: Assets/Projeto/Sprites/Environment/dark/parallax-forest-back-trees.png
-  artifactKey: Guid(3e77b807b7a680643ab59c60c4ee0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/dark/parallax-forest-back-trees.png using Guid(3e77b807b7a680643ab59c60c4ee0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3873588c0e5dcea103c5942e609215f7') in 0.017807 seconds
-  Import took 0.021894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 242.890372 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-1.png
-  artifactKey: Guid(a49935f49dc384b83ae4e1e7ac7802f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-1.png using Guid(a49935f49dc384b83ae4e1e7ac7802f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c960d4fe8b07ebe6a1bd732d9130de') in 0.018153 seconds
-  Import took 0.023053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 436.583080 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-3.png
-  artifactKey: Guid(85e2e5d9c081f4980b3f2730fe87dfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-3.png using Guid(85e2e5d9c081f4980b3f2730fe87dfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b792125cbffd877f3c111b8e5364780') in 0.017989 seconds
-  Import took 0.021853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.568127 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-2.png
-  artifactKey: Guid(ccbc321d821ff4ee4bff372e6fae0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-2.png using Guid(ccbc321d821ff4ee4bff372e6fae0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a172df381a2e7e612c226b4db761633') in 0.016117 seconds
-  Import took 0.020927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.750484 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png
-  artifactKey: Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png using Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa48e0ea61a32f57ee531021468f715') in 0.015777 seconds
-  Import took 0.020133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009447 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png
-  artifactKey: Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png using Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa48e0ea61a32f57ee531021468f715') in 0.014837 seconds
-  Import took 0.019342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.962182 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png
-  artifactKey: Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png using Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a122624a0e8dd3bbcc656b65630dbd8') in 0.038978 seconds
-  Import took 0.042892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.864820 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-large.png
-  artifactKey: Guid(169c738601686406e9dc499aecfe1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-large.png using Guid(169c738601686406e9dc499aecfe1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689a59342c0e0b43298ac1def4c59d75') in 0.018490 seconds
-  Import took 0.023163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.502220 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-4.png
-  artifactKey: Guid(a08a37b3e8fd348a6aa32f11d3a65b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-4.png using Guid(a08a37b3e8fd348a6aa32f11d3a65b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab491bb71da98927d97ee7617a020a0c') in 0.014711 seconds
-  Import took 0.018316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.055851 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-4.png
-  artifactKey: Guid(a08a37b3e8fd348a6aa32f11d3a65b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-4.png using Guid(a08a37b3e8fd348a6aa32f11d3a65b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33078699bfff422c9064014b17f7071') in 0.010018 seconds
-  Import took 0.014611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.105958 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png
-  artifactKey: Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/statue.png using Guid(4cd70fb4a47bf4c84ad549f7f57b3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4293b4c96b8b5b1e67660c0c4d4720e') in 0.010938 seconds
-  Import took 0.015034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.599966 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-1.png
-  artifactKey: Guid(a49935f49dc384b83ae4e1e7ac7802f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-1.png using Guid(a49935f49dc384b83ae4e1e7ac7802f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1dc3f11b7547cab8420b8c261be6c6') in 0.010691 seconds
-  Import took 0.014646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.949869 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/tree-1.png
-  artifactKey: Guid(eca112b76f20b46868ad86e0bd613dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/tree-1.png using Guid(eca112b76f20b46868ad86e0bd613dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4128f42acd630d56ed56d02634529013') in 0.019396 seconds
-  Import took 0.023534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 365.048823 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-large.png
-  artifactKey: Guid(169c738601686406e9dc499aecfe1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-large.png using Guid(169c738601686406e9dc499aecfe1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d525c6f1bf707ea9fa22162c492c3bf') in 0.013596 seconds
-  Import took 0.017995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006129 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-large.png
-  artifactKey: Guid(169c738601686406e9dc499aecfe1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-large.png using Guid(169c738601686406e9dc499aecfe1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d525c6f1bf707ea9fa22162c492c3bf') in 0.010798 seconds
-  Import took 0.015101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.074460 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/tree-3.png
-  artifactKey: Guid(77adc8bfe31a0412fb512e6d9c444330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/tree-3.png using Guid(77adc8bfe31a0412fb512e6d9c444330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f044ffaabdb857f071104b64b813db') in 0.021005 seconds
-  Import took 0.025246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.940922 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/tree-2.png
-  artifactKey: Guid(52959829b05c3443bb826105c7399ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/tree-2.png using Guid(52959829b05c3443bb826105c7399ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e9aa14c5d2abfc81898472c5a8dcf9') in 0.021091 seconds
-  Import took 0.025630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.692903 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-3.png
-  artifactKey: Guid(85e2e5d9c081f4980b3f2730fe87dfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-3.png using Guid(85e2e5d9c081f4980b3f2730fe87dfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc05d56070cbda333fd0120a3c32b4e') in 0.011595 seconds
-  Import took 0.016457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.423925 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-2.png
-  artifactKey: Guid(ccbc321d821ff4ee4bff372e6fae0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/stone-2.png using Guid(ccbc321d821ff4ee4bff372e6fae0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399e3009d4991bd42ce2e99a56c744aa') in 0.010295 seconds
-  Import took 0.014572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.770961 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-small.png
-  artifactKey: Guid(36d30963c1b6a4d4ab1c9d7a31b892b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/sliced-objects/bush-small.png using Guid(36d30963c1b6a4d4ab1c9d7a31b892b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeee91206912f7b0071a2a9b1cefc07') in 0.016463 seconds
-  Import took 0.020470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.001238 seconds.
-  path: Assets/Projeto/Sprites/Enemies/ghost-halo/ghost-halo-1.png
-  artifactKey: Guid(3bd6ae9ed48144bf6b53332d6b4a753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Enemies/ghost-halo/ghost-halo-1.png using Guid(3bd6ae9ed48144bf6b53332d6b4a753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31950c3997bc709e2f22173457f302b2') in 0.017856 seconds
-  Import took 0.022302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.067833 seconds.
-  path: Assets/Projeto/Sprites/Enemies/ghost-halo/ghost-halo-1.png
-  artifactKey: Guid(3bd6ae9ed48144bf6b53332d6b4a753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Enemies/ghost-halo/ghost-halo-1.png using Guid(3bd6ae9ed48144bf6b53332d6b4a753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0857e750085c4f93cf7a3fc521a505') in 0.011120 seconds
-  Import took 0.015674 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001506 seconds.
+Registered in 0.001310 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -385,318 +126,107 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.021 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
-Total: 2.875400 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.061900 ms MarkObjects: 2.403400 ms  DeleteObjects: 0.152800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 2.740100 ms (FindLiveObjects: 0.352300 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.172300 ms  DeleteObjects: 0.142100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001316 seconds.
+Registered in 0.001461 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 3.411300 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.822400 ms  DeleteObjects: 0.173000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001398 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 2.912300 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.323800 ms  DeleteObjects: 0.153100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001443 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
+- Completed reload, in  1.187 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.0 MB.
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
-Total: 3.222600 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.706600 ms  DeleteObjects: 0.150700 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 3.590800 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.998800 ms  DeleteObjects: 0.167300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 320.785117 seconds.
-  path: Assets/Projeto/Sprites/Environment/Cemiterio/graveyard.png
-  artifactKey: Guid(e3309b7d2ebaf41fa87c88817dbec1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/Cemiterio/graveyard.png using Guid(e3309b7d2ebaf41fa87c88817dbec1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece1e6b361b54f6ba9739a3e8c0a6f4c') in 0.071047 seconds
-  Import took 0.075439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 280.977663 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers
-  artifactKey: Guid(16846392bc4ead74d8898ae9ec5c8602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers using Guid(16846392bc4ead74d8898ae9ec5c8602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dd82ee874c5bde009b55413b90920d') in 0.008395 seconds
-  Import took 0.012474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.789843 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/clouds_1.png
-  artifactKey: Guid(294915fcce2e6cb449b24b17d1c2d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/clouds_1.png using Guid(294915fcce2e6cb449b24b17d1c2d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e141398c66420662f37451ff2ab66fb0') in 0.039097 seconds
-  Import took 0.043961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.652623 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/clouds_2.png
-  artifactKey: Guid(0448003308c084c47a24cadbdf037c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/clouds_2.png using Guid(0448003308c084c47a24cadbdf037c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20248206d559190ea877e336b5237a2f') in 0.037336 seconds
-  Import took 0.041411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.821632 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/ground_1.png
-  artifactKey: Guid(27cfc7a540140a54e8852774dadac4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/ground_1.png using Guid(27cfc7a540140a54e8852774dadac4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1324e5d15312703a5549672f2b23a489') in 0.038283 seconds
-  Import took 0.042529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.041829 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/ground_2.png
-  artifactKey: Guid(593519ec323fd4b41a2f853ad7038176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/ground_2.png using Guid(593519ec323fd4b41a2f853ad7038176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c96a7e6a50f28c7d6d65b40cfff8cc8') in 0.039009 seconds
-  Import took 0.042575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.508056 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/ground_3.png
-  artifactKey: Guid(0b524a912a722d04aba6eb825c310785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/ground_3.png using Guid(0b524a912a722d04aba6eb825c310785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83ab6edfff2703058d6ffca94506ff7') in 0.038201 seconds
-  Import took 0.042070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.576428 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/plant.png
-  artifactKey: Guid(8e629b438c16df4429785fd77a911a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/plant.png using Guid(8e629b438c16df4429785fd77a911a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50c341a29caff0fb93c7493cd00846b') in 0.039051 seconds
-  Import took 0.042999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.842341 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/rocks.png
-  artifactKey: Guid(02cee148173270d4895c7c03dd9afb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/rocks.png using Guid(02cee148173270d4895c7c03dd9afb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6080ee45f4823b6fef07dfcdbcb77f8') in 0.037012 seconds
-  Import took 0.040923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.410408 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/sky.png
-  artifactKey: Guid(015814408ed98a34eb8f288b091ea6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/sky.png using Guid(015814408ed98a34eb8f288b091ea6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfab4a3518cc349acabf54c134dbf3d4') in 0.038901 seconds
-  Import took 0.043282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.798514 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/game_background_3. 2.png
-  artifactKey: Guid(e863a310cca22454c892553f0c256e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/game_background_3. 2.png using Guid(e863a310cca22454c892553f0c256e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b777e3373dfa3e525a192872ca3dca') in 0.025507 seconds
-  Import took 0.029488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.501532 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png
-  artifactKey: Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png using Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d54ab76629949d82d3ca784d9d9744') in 0.023476 seconds
-  Import took 0.027919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.064850 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png
-  artifactKey: Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png using Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e8d05080cb4e007d6d52c2d2b3de9e') in 0.022394 seconds
-  Import took 0.026987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001836 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png
-  artifactKey: Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png using Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e8d05080cb4e007d6d52c2d2b3de9e') in 0.022470 seconds
-  Import took 0.026283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.105379 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/ground_1.png
-  artifactKey: Guid(27cfc7a540140a54e8852774dadac4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/ground_1.png using Guid(27cfc7a540140a54e8852774dadac4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8f88d6b3df3a1c8f49c86d84141119') in 0.033328 seconds
-  Import took 0.037820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.016748 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png
-  artifactKey: Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png using Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415d7bb4e6cf896c4ef5f6a1cda0545d') in 0.021716 seconds
-  Import took 0.025488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001332 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png
-  artifactKey: Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/game_background_3.1.png using Guid(90f29499df7218847b2d1799f7ba36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415d7bb4e6cf896c4ef5f6a1cda0545d') in 0.022245 seconds
-  Import took 0.026353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.967617 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/plant.png
-  artifactKey: Guid(8e629b438c16df4429785fd77a911a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/plant.png using Guid(8e629b438c16df4429785fd77a911a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d19c07aa61f2fdd24daba183f37cc5') in 0.035090 seconds
-  Import took 0.038870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.269398 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/ground_3.png
-  artifactKey: Guid(0b524a912a722d04aba6eb825c310785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/ground_3.png using Guid(0b524a912a722d04aba6eb825c310785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdce038d771ac3bf6bde79489c53285f') in 0.036942 seconds
-  Import took 0.041282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.167482 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/sky.png
-  artifactKey: Guid(015814408ed98a34eb8f288b091ea6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/sky.png using Guid(015814408ed98a34eb8f288b091ea6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f15f1b1f31399d20692a47854c7821e') in 0.023448 seconds
-  Import took 0.027859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.113464 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/rocks.png
-  artifactKey: Guid(02cee148173270d4895c7c03dd9afb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/rocks.png using Guid(02cee148173270d4895c7c03dd9afb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ab76722c4ad0b7c0fff0d8c801a48d') in 0.037199 seconds
-  Import took 0.040825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.812976 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/clouds_1.png
-  artifactKey: Guid(294915fcce2e6cb449b24b17d1c2d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/clouds_1.png using Guid(294915fcce2e6cb449b24b17d1c2d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a692d0abe5aba0e8f0ddf7171b1aae6') in 0.034121 seconds
-  Import took 0.038018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.556626 seconds.
-  path: Assets/Projeto/Sprites/Environment/noite/layers/clouds_2.png
-  artifactKey: Guid(0448003308c084c47a24cadbdf037c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projeto/Sprites/Environment/noite/layers/clouds_2.png using Guid(0448003308c084c47a24cadbdf037c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76b5a8a42ff9caa86445ffe437a521a') in 0.035028 seconds
-  Import took 0.038726 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001251 seconds.
+Registered in 0.001305 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 3.031100 ms (FindLiveObjects: 0.337500 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.456400 ms  DeleteObjects: 0.156100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.1 MB.
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 3.063100 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.455800 ms  DeleteObjects: 0.150800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 2.823600 ms (FindLiveObjects: 0.280600 ms CreateObjectMapping: 0.060700 ms MarkObjects: 2.323200 ms  DeleteObjects: 0.158000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.4 MB.
-System memory in use after: 53.3 MB.
+System memory in use before: 50.2 MB.
+System memory in use after: 50.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 3.254800 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.653800 ms  DeleteObjects: 0.166300 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 2.989100 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.481500 ms  DeleteObjects: 0.171700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
